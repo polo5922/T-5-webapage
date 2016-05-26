@@ -1,0 +1,94 @@
+.section{
+			font-size: 6em;
+			text-align: center;
+
+		}
+.logo{
+		position: absolute;
+		top: 0px;
+		left: 45%;
+	}
+#infoMenu {
+		bottom: 80px;
+	}
+#infoMenu li a {
+		color: #fff;
+		z-index: 999;
+	}
+#header, #footer{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+
+#header{
+		top:0px;
+	}
+#footer{
+		bottom:0px;
+	}
+#myMenu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 70px;
+    left:40%;
+}
+
+#myMenu li {
+    float: left;
+}
+
+#myMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#myMenu li a:hover {
+    background-color: #111;
+}
+#btn-close-modal {
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    color:#fff;
+}
+.closebt {
+	position: absolute;
+	top: 3%;
+    transition: all 0.2s cubic-bezier(.43,.03,.28,1.41) 0s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.43, 0.03, 0.28, 1.41);
+    transition-delay: 0s;
+    cursor: pointer;
+}
+.rondImage{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+#image_equipe{
+	position: absolute;
+	top: 30%;
+	left: 38%;
+}
+body{
+	color : #333333;
+}
